@@ -946,8 +946,8 @@ body {
   border: 1px solid rgba(51, 51, 51, 0.2);
   border-radius: 5px;
   top: 50%;
-  -webkit-transform: translate(-35%, -50%);
-          transform: translate(-35%, -50%);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1199,6 +1199,9 @@ body {
   .form__btn-block {
     margin-top: 2.5rem;
   }
+  .form__block-area {
+    max-width: none;
+  }
   .footer__body {
     padding: 3.125rem 0rem 1.25rem;
   }
@@ -1300,6 +1303,9 @@ body {
   }
   .about__video-title {
     font-size: 1.0625rem;
+  }
+  .form__input-file input::after {
+    left: 60%;
   }
 }
 @media (max-width: 20.1875em) {
